@@ -1,0 +1,186 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 10px;
+}
+#main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+#image-logo {
+  height: 45px;
+  width: 50px;
+}
+#list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+#list-container {
+  display: none !important;
+}
+#list {
+  padding: 0px 20px;
+}
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  display: none;
+  padding-right: 20px;
+}
+.register {
+  display: none;
+  padding: 0 20px;
+}
+.image-container {
+  padding: 0;
+  margin-top: 20px;
+}
+.hero {
+  padding: 0;
+  margin: 0;
+}
+.hero-image {
+  height: 350px;
+  width: 100%;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-text > h2 {
+  font-size: 40px;
+}
+.main-heading {
+  margin-bottom: 0;
+}
+
+.main-text > p {
+  text-align: center;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.logo-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.image-list {
+  height: 20px;
+  width: 40px;
+  padding: 20px;
+}
+.menu {
+  padding: 10px 20px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Desktop */
+@media screen and (min-width: 576px) {
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+  }
+  #main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #list-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  #list-container {
+    display: flex;
+    flex-direction: row;
+  }
+  #list {
+    padding: 0px 20px;
+  }
+  #list-items {
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+  .login {
+    display: flex;
+    padding-right: 20px;
+  }
+  .register {
+    display: flex;
+    padding: 0 20px;
+  }
+  .hero {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .main-text > h1{
+  font-size: 80px;
+  }
+  .main-text {
+    border: 1px solid red;
+    display: flex;
+    text-align: start;
+    align-items: start;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .main-text > p {
+    text-align: start;
+  }
+  .image-container {
+    border: 1px solid green;
+    height: 500px;
+    width: 100%;
+  }
+  .hero-image {
+    height: 100%;
+    width: 100%;
+  }
+  .logo-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .btn {
+    margin-top: 30px;
+  }
+}
